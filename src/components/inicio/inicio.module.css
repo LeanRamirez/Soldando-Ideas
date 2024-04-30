@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.container img{
+    width: 100%;
+    display: block;
+    height: 550px;
+    box-shadow: 4px 2px 5px black; 
+}
+
+.parrafo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.parrafo h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+.parrafo h2{
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.parrafo button{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: bisque;
+}
+
+@media screen and  (min-width: 768px){
+
+    .container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .parrafo{
+        text-align: left;
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .imgContainer{
+        width: 50%;
+        margin-bottom: 0;
+    }
+    
+}
