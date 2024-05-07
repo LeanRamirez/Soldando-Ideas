@@ -11,7 +11,7 @@ import img7 from "../../assets/img7.jpg";
 
 const Trabajos=()=>{
     return(
-         <div className={style.container}>
+         <div id="trabajos" className={style.container}>
             <div className={style.info}>
                 <h1>¿QUE HACEMOS?</h1>
                 <p>

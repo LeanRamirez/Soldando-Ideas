@@ -5,7 +5,7 @@ import img from "../../assets/img2.png";
 
 const Inicio=()=>{
     return(
-        <div className={style.container}>
+        <div id="inicio" className={style.container}>
             <div>
                 <img src={img} alt="img" />
             </div>
