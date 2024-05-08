@@ -15,7 +15,7 @@ const Inicio=()=>{
                     Poseemos una amplia variedad de modelos de productos que nos identifican y nos permiten cumplir con la expectativa y satisfacción de nuestros clientes.
                     Brindamos un servicio personalizado cumpliendo con todos los requerimientos para la satisfaccióndel cliente
                 </h2>
-                <a href="contacto" to="/contacto">
+                <a href="#contacto" >
                     <button>CONOZCA MAS</button>
                 </a>
             </div>

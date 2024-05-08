@@ -1,0 +1,53 @@
+.footer{
+    background: linear-gradient(to top, #f2f2f2, #cccccc, #999999, #666666);
+    border-top: solid 2px white;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column h2{
+    text-decoration: underline;
+}
+
+.column li{
+    list-style-type: none;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.column ul{
+padding: 0px;
+}
+
+.instagram h2{
+    text-decoration: underline;
+}
+
+.instagram ul{
+    padding: 0px;
+}
+
+.instagram li{
+    list-style-type: none;
+}
+
+.instagram a{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.bottom{
+    margin-top: 15px;
+    padding-left: 40px;
+    border-top: solid 2px black;
+}
+
+.icon{
+    margin-right: 10px;
+}

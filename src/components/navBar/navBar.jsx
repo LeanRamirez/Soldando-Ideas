@@ -1,23 +1,27 @@
-import React from "react"
+import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import style from "./navBar.module.css";
-import { NavLink } from "react-router-dom";
-const NavBar=()=>{
-    return(
-        <nav id="navBar" className={style.container}>
-            <div>
-                <img className={style.logo} src={logo} alt="logo"></img>
-            </div>
-            <div className={style.menu}>
-                <ul>
-                    <li><a href="#inicio"> INICIO </a></li>
-                    <li><a href="#trabajos" > QUE HACEMOS </a></li>
-                    <li><a href="#contacto" > CONTACTO </a></li>
-                </ul>
-            </div>
-        </nav>
-    )
+
+const NavBar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  return (
+    <nav className={style.nav}>
+      <div className={style.logo}>
+        <img src={logo} alt="logo"/>
+      </div>
+      <div className={style.menuToggle} onClick={() => setShowMenu(!showMenu)}>
+        <i className={showMenu ? "fas fa-times" : "fas fa-bars"}></i>
+      </div>
+      <ul className={showMenu ? style.menuActive : style.menu}>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#trabajos">Trabajos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  );
 }
+
 export default NavBar;
 
                     
