@@ -2,10 +2,9 @@
 
 /* Media queries para diferentes tamaños de pantalla */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {} */
   /* Estilos para dispositivos pequeños, como tabletas */
-}
 
-@media screen and (max-width: 480px) {
+
+/* @media screen and (max-width: 480px) {} */
   /* Estilos para dispositivos móviles */
-}

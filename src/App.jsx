@@ -1,6 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import style from "./App.css"
 
-import './App.css'
 
 import Inicio from './components/inicio/inicio'
 import NavBar from './components/navBar/navBar'

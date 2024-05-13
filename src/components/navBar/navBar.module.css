@@ -1,59 +1,27 @@
-.nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    margin-bottom: 5px;
-  }
+.container{
+  background-color: #333;
+  width: 100%;
+}
 
-  .logo img{
-    width: 120px;
-    height: 120px;
-    box-shadow: 4px 2px 5px rgb(12, 12, 12); 
-  }
-  
-  .menu {
-    list-style: none;
-    display: flex;
-  }
-  
-  .menu li {
-    margin-right: 20px;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: wheat;
-    font-size: 25px;
-  }
-  .menu a:hover{
-    transition: transform 0.3s ease;
-    text-decoration: underline;
-    transform: scale(1,1);
-  }
-  
-  .menuToggle {
-    display: none;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .menu {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-    }
-  
-    .menuToggle {
-      display: block;
-      cursor: pointer;
-    }
-  
-    .menuActive {
-      display: flex;
-    }
-  }
+.menu ul{
+  margin-left: 50%;
+}
+
+.menu a{
+  color: wheat;
+  margin-left: 40px;
+}
+
+.menu a:hover{
+  color: antiquewhite;
+  text-decoration: underline;
+}
+
+
+.logo{
+  width: 100px;
+  height: 100px;
+  box-shadow: 4px 2px 5px rgb(12, 12, 12); 
+  border-radius: 3px;
+  margin-left: 100%;
+}
