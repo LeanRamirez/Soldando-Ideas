@@ -58,10 +58,10 @@ const Contacto = () => {
             <form className={style.form} onSubmit={handleSubmit}>
                 <div className={style.contactForm}>
                     
-                    <div className={style.formItem}>
-                        <label htmlFor="nombre">Nombre: </label>
+                    <div className={`mb-3 ${style.formItem}`}>
+                        <label className="form-label" htmlFor="nombre">Nombre: </label>
                         <input 
-                            className={style.input} 
+                            className={`form-control ${style.input}`} 
                             type="text"
                             name="nombre"
                             value={formData.nombre}
@@ -70,10 +70,10 @@ const Contacto = () => {
                             {errors.nombre && <span className={style.errors}>{errors.nombre}</span>}
                     </div>
                     
-                    <div className={style.formItem}>
-                        <label htmlFor="telefono">Telefono: </label>
+                    <div className={`mb-3 ${style.formItem}`}>
+                        <label className="form-label" htmlFor="telefono">Telefono: </label>
                         <input 
-                            className={style.input} 
+                            className={`form-control ${style.input}`} 
                             type="tel" 
                             name="telefono"
                             inputMode="numeric"
@@ -83,10 +83,10 @@ const Contacto = () => {
                             {errors.telefono && <span className={style.errors}>{errors.telefono}</span>}
                     </div>
                     
-                    <div className={style.formItem}>
-                        <label htmlFor="consulta">Consulta: </label>
+                    <div className={`mb-3 ${style.formItem}`}>
+                        <label className="form-label" htmlFor="consulta">Consulta: </label>
                         <textarea 
-                            className={style.inputArea} 
+                            className={`form-control ${style.inputArea}`} 
                             type="text"
                             name="consulta"
                             value={formData.consulta}
