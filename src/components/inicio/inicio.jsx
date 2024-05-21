@@ -10,8 +10,8 @@ const Inicio=()=>{
                 <img src={img} alt="img" />
             </div>
             <div className={style.parrafo}>
-                <h1>Soldamos tus proyectos para que alcances tus sueños.</h1>
-                <h2>Somos una empresa con basta experiencia en el rubro, siempre brindando la mejor solución posible a tus necesidades. <br />
+                <h1 className={style.parrafoTitle}>SOLDAMOS TUS IDEAS PARA HACER REALIDAD TUS PROYECTOS</h1>
+                <h2 className={style.parrafoBody}>Somos una empresa con basta experiencia en el rubro, siempre brindando la mejor solución posible a tus necesidades. <br />
                     Poseemos una amplia variedad de modelos de productos que nos identifican y nos permiten cumplir con la expectativa y satisfacción de nuestros clientes. <br />
                     Brindamos un servicio personalizado para cada uno de tus requisitos.
                 </h2>

@@ -1,11 +1,12 @@
 .container{
-    background-color: rgb(34, 30, 30);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(29,107,196);
+background: linear-gradient(0deg, rgba(29,107,196,0.25115983893557425) 50%, rgba(95,95,95,0) 100%);
 }
 
 .info{
     text-align: center;
     margin-top: 50px;
-    color: wheat;
 }
 
 .info p{

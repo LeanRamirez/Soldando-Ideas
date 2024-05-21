@@ -11,24 +11,27 @@ const NavBar =()=>{
     <>
     <nav className={`navbar navbar-expand-md ${style.navbar}`}>
       <div className={`container-fluid ${style.container}`}>
-        <div className={style.containerLogo}>
-        <a className="navbar-brand">
-          <img className={style.logo} src={logo} alt="logo"/>
-        </a>
-        <button className="navbar-toggler" 
-        type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#navbarToggler" 
-        aria-controls="navbarToggler" 
-        aria-expanded="false" 
-        aria-label="Toggle navigation" 
-        >
-          <span className="navbar-toggler-icon">
-          </span>
-        </button>
+        <div className={style.brand}>
+            <div className={style.containerLogo}>
+            <a className="navbar-brand">
+              <img className={style.logo} src={logo} alt="logo"/>
+            </a>
+            <button className="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarToggler" 
+            aria-controls="navbarToggler" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation" 
+            >
+              <span className="navbar-toggler-icon">
+              </span>
+            </button>
+            </div>
+            <div className={style.nameTitle}>
+              <p> SOLDANDO IDEAS</p>
+            </div>
         </div>
-        <div className="nameTitle">Soldando Ideas</div>
-
         <div className={style.containerMenu}>
           <div className={style.socialMenu}>
               <div className={style.socialContainer}>
