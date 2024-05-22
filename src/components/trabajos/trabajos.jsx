@@ -13,7 +13,7 @@ const Trabajos=()=>{
     return(
          <div id="trabajos" className={style.container}>
             <div className={style.info}>
-                <h1>¿A qué nos dedicamos?</h1>
+                <h1>¿A QUÉ NOS DEDICAMOS?</h1>
                 <p>
                     Armado, ventas y colocación de rejas, puertas, portones, escaleras, entre otros productos pensados para vos.<br/>
                     Brindamos garantía de trabajo, materiales de primera calidad y asesoramiendo personalizado por su propios dueños.

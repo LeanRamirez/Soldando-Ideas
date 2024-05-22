@@ -55,7 +55,7 @@ const NavBar =()=>{
                 href="#inicio">INICIO</a>
               </li> 
               <li className="nav-item">
-                <a className="nav-link" href="#trabajos">TRABAJO</a>
+                <a className="nav-link" href="#trabajos">TRABAJOS</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" aria-disabled="true" href="#contacto">CONTACTO</a>

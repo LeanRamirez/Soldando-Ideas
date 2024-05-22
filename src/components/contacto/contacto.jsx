@@ -54,10 +54,9 @@ const Contacto = () => {
 
     return (
         <div id="contacto" className={style.contact}>
-            <h2>CONTACTO</h2>
             <form className={style.form} onSubmit={handleSubmit}>
+            <h2>CONTACTO</h2>
                 <div className={style.contactForm}>
-                    
                     <div className={`mb-3 ${style.formItem}`}>
                         <label className="form-label" htmlFor="nombre">Nombre: </label>
                         <input 
