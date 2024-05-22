@@ -4,7 +4,7 @@
     align-items: center;
     padding: 40px;
     background: rgb(29,107,196);
-    background: linear-gradient(0deg, rgba(29,107,196,0) 50%, rgba(95,95,95,0.5) 100%);
+    background: linear-gradient(0deg, rgba(29,107,196,0) 50%, rgba(129, 129, 129, 0.5) 100%);
 }
 
 .container img{
@@ -44,10 +44,10 @@
 .parrafo button{
     width: 200px;
     height: 40px;
-    background-color: #1d6bc4;
-    border: none;
+    background-color: transparent;
+    border: 1.5px solid #0d6efd;
     border-radius: 10px;
-    color: #fff;
+    color: #0d6efd;
 }
 
 .parrafoTitle {

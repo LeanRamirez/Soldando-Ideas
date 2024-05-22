@@ -13,16 +13,18 @@ const Trabajos=()=>{
     return(
          <div id="trabajos" className={style.container}>
             <div className={style.info}>
-                <h1>¿QUE HACEMOS?</h1>
+                <h1>¿A qué nos dedicamos?</h1>
                 <p>
-                    Armado, ventas y colocación de rejas, puertas, portones, escaleras, etc.<br/>
-                    Brindamos garantia de trabajo, materiales de primera calidad y asesoramiendo personalizado por su propios dueños.
+                    Armado, ventas y colocación de rejas, puertas, portones, escaleras, entre otros productos pensados para vos.<br/>
+                    Brindamos garantía de trabajo, materiales de primera calidad y asesoramiendo personalizado por su propios dueños.
                 </p>
+            </div>
+            <div className= {style.backgroundGallery}>  
             </div>
             <div className={style.containerImg}>
                 <div className={style.imagenContainer}>
                     <img src={img1} alt="img1"/>
-                    <p>Portico vidrio repartido</p>
+                    <p>Pórtico vidrio repartido</p>
                 </div>
                 <div className={style.imagenContainer}>
                     <img src={img7} alt="img3"/>
@@ -30,7 +32,7 @@ const Trabajos=()=>{
                 </div>
                 <div className={style.imagenContainer}>
                     <img src={img5} alt="img3"/>
-                    <p>Pergola con madera y chapa translucida</p>
+                    <p>Pergola con madera y chapa translúcida</p>
                 </div>
                 <div className={style.imagenContainer}>
                     <img src={img3} alt="img3"/>
@@ -45,6 +47,12 @@ const Trabajos=()=>{
                     <p>Fogoneros a medida</p>
                 </div>
             </div>
+            <div className= {style.lineContainer}>
+                    <div className={style.line}>
+                    </div>
+                    <div className={style.line}>
+                    </div>
+                </div>
          </div>
     )
 }
