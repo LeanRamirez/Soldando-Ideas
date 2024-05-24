@@ -1,53 +1,85 @@
 .footer{
-    background: linear-gradient(to top, #f2f2f2, #cccccc, #999999, #666666);
-    border-top: solid 2px white;
+    color: #4a4949;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 0 0;
+    background-color: #c8c6c6;
 }
-
+.logoContainer {
+    height: 100%;
+}
+.logo {
+    height: 80px;
+    width: 80px;
+}
+.brand {
+    padding: 10px 0;
+    color: #5f5f5f ;
+    font-weight: 400;
+    font-size: 20px;
+  }
 
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 50px 20px 10px;
 }
 
 .column h2{
-    text-decoration: underline;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.follow {
+    font-size: 22px;
+    padding-bottom: 15px;
 }
 
 .column li{
     list-style-type: none;
     font-size: 15px;
-    margin: 10px;
 }
-
-.column ul{
-padding: 0px;
+.linksUl{
+    padding-left: 0;
 }
-
-.instagram h2{
-    text-decoration: underline;
-}
-
-.instagram ul{
+.links ul{
     padding: 0px;
 }
-
+.instagram ul {
+    padding-left: 0;
+}
 .instagram li{
     list-style-type: none;
 }
 
 .instagram a{
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .bottom{
-    margin-top: 15px;
+    margin-top: 25px;
     padding-left: 40px;
-    border-top: solid 2px black;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .icon{
     margin-right: 10px;
+}
+.links {
+   text-decoration: none;
+   color: #5f5f5f;
+   margin: 10px;
+}
+.links:hover {
+    color: #1d6bc4;
+    text-decoration: underline;
+}
+.logoSem {
+    height: 35px;
+    width: 140px;
 }
