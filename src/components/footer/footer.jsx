@@ -34,9 +34,9 @@ const Footer = () => {
                 <div className={style.column}>
                     <h2>Enlaces</h2>
                     <ul className={style.linkUl}>
-                        <li><a className={style.links} href="#inicio">INICIO</a></li>
-                        <li><a className={style.links} href="#trabajos">QUE HACEMOS</a></li>
-                        <li><a  className={style.links} href="#contacto">CONTACTO</a></li>
+                        <li className={style.linksLi}><a className={style.links} href="#inicio">INICIO</a></li>
+                        <li className={style.linksLi}><a className={style.links} href="#trabajos"> TRABAJOS</a></li>
+                        <li className={style.linksLi}><a  className={style.links} href="#contacto">CONTACTO</a></li>
                     </ul>
                 </div>
                 
