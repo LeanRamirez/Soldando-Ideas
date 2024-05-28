@@ -82,3 +82,42 @@
     height: 35px;
     width: 140px;
 }
+
+@media  screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .column{
+        margin-bottom: 20px;
+    }
+    .logo{
+        height: 60px;
+        width: 60px;
+    }
+    .brand{
+        font-size: 18px;
+    }
+    .column h2{
+        font-size: 20px;
+    }
+    .column li,
+    .instagram a{
+        font-size: 14px;
+    }
+    .linkUl a{
+        font-size: 20px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+    .logoSem{
+        height: 30px;
+        width: 120px;
+        margin-top: 10px;
+    }
+}

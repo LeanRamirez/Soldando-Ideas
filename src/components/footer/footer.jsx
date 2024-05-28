@@ -10,7 +10,7 @@ const Footer = () => {
 
     const direccion ="https://www.google.com/maps/@-34.4652218,-58.6423515,20z"
     return (
-        <footer className={style.footer}>
+        <footer id="footer" className={style.footer}>
             <div className={style.container}>
                 <div className={style.logoContainer}>
                 <img className={style.logo} src={logoTransp} alt="logo"/>

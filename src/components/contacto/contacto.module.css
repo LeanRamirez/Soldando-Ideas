@@ -86,3 +86,20 @@
     background-color: #0d6efd;
 
 }
+
+@media screen and (max-width: 768px) {
+    .contactForm{
+        width: 70vw;
+        height: auto;
+    }
+    .form{
+        background-color: transparent;
+    }
+    .form h2{
+        color: white;
+    }
+
+    .formItem label{
+        color: white;
+    }
+}

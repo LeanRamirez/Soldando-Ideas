@@ -8,42 +8,42 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 const NavBar =()=>{
 
   return(
-    <>
+  <>
     <nav className={`navbar navbar-expand-md ${style.navbar}`}>
       <div className={`container-fluid ${style.container}`}>
         <div className={style.brand}>
             <div className={style.containerLogo}>
-            <a className="navbar-brand">
-              <img className={style.logo} src={logo} alt="logo"/>
-            </a>
-            <button className="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbarToggler" 
-            aria-controls="navbarToggler" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation" 
-            >
-              <span className="navbar-toggler-icon">
-              </span>
-            </button>
+              <a className="navbar-brand">
+                <img className={style.logo} src={logo} alt="logo"/>
+              </a>
+                <button className={`navbar-toggler ${style.button}`}
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarToggler" 
+                  aria-controls="navbarToggler" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation" 
+                >
+                <span className="navbar-toggler-icon">
+                </span>
+              </button>
             </div>
-            <div className={style.nameTitle}>
+            <div className={`d-none d-md-none ${style.nameTitle}`}>
               <p> SOLDANDO IDEAS</p>
             </div>
         </div>
         <div className={style.containerMenu}>
-          <div className={style.socialMenu}>
+          <div className={`${style.socialMenu}`}>
               <div className={style.socialContainer}>
-              <a href="https://www.instagram.com/soldandoideas_herreria/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon className={style.icon} icon={faInstagram}/>
-            </a>
-            <a href="https://www.instagram.com/soldandoideas_herreria/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon className={style.icon} icon={faEnvelope}/>
-            </a>
-            <a href="https://www.instagram.com/soldandoideas_herreria/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon className={style.icon} icon={faPhone}/>
-            </a>
+                <a href="https://www.instagram.com/soldandoideas_herreria/" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon className={style.icon} icon={faInstagram}/>
+                </a>
+                <a href="#contacto"  rel="noopener noreferrer">
+                  <FontAwesomeIcon className={style.icon} icon={faEnvelope}/>
+                </a>
+                <a href="#footer" rel="noopener noreferrer">
+                  <FontAwesomeIcon className={style.icon} icon={faPhone}/>
+              </a>
               </div>
             </div>
             
@@ -63,10 +63,10 @@ const NavBar =()=>{
             </ul>
           </div>
 
-        </div>
+          </div>
       
-      </div>
-</nav>
+        </div>
+      </nav>
     </>
     
   )

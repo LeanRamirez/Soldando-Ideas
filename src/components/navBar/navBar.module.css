@@ -44,14 +44,12 @@
 }
 
 .brand {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   padding-left: 50px;
+  width: 100%;
 }
 
 .logo{
-  width: 100px;
+  
   height: 100px;
 }
 
@@ -64,5 +62,31 @@
   font-weight: 400;
   color: #5f5f5f;
   align-self: flex-end;
- 
+}
+
+@media screen and (max-width: 767.98px){
+  .nameTitle{
+    display: none;
+  }
+  .socialMenu{
+    display: none;
+  }
+  .containerLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .button{
+    height: 50px;
+  }
+  .logo{
+    height: 85px;
+  }
+  .menu{
+    background-color:white;
+    height: 25vh;
+    opacity: 0.8;
+    border-radius: 3px;
+  }
 }
